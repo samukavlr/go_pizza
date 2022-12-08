@@ -38,7 +38,7 @@ export const Photo = styled.Image`
 export const Title = styled.Text`
     font-size: 32px;
     font-family: ${( { theme } ) => theme.fonts.dm};
-    margin-right: 263px;
+    margin-right: auto;
     margin-left: 42px;
     margin-bottom: 16px;
     color: #fff;
@@ -49,20 +49,6 @@ export const Title = styled.Text`
 export const ContainerInput = styled.View`
     
     width: 311px;
-    
-    
-
-`;
-export const Input = styled.Text`
-   width:311px;
-    height: 56px;
-    color: white;
-    border: 1px;
-    border-radius: 12;
-    border-color: #D16470;
-    margin-bottom: 16px;
-
-    
 `;
 
 export const UserInfo = styled.View`

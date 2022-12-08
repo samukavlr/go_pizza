@@ -1,5 +1,7 @@
 import React from 'react'
 import img from '../../goPizza/brand.png'
+import { Input } from '../../components/Form/Input';
+import { Button } from '../../components/Form/Button';
 
 
 
@@ -8,7 +10,6 @@ import {
   Title,
   Photo,
   Container,
-  Input,
   ContainerInput
 } from './styles';
 
@@ -26,6 +27,7 @@ export function Dashboard() {
           <ContainerInput>
             <Input/> 
             <Input/> 
+            <Button/>
           </ContainerInput>
 
           
